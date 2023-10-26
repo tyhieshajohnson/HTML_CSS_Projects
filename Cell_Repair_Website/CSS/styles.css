@@ -7,6 +7,7 @@ body {
 /* Logo Styling */
 .mobiCareLogo {
     width: 100%;
+    background-color: white;
 }
 /* Media Screen */
 
@@ -60,6 +61,7 @@ li::after {
     object-fit: contain;
     width: 100%;
     height: 100%;
+    background-color: white;
 }
 
 .bannerImage img {
@@ -79,6 +81,7 @@ li::after {
 .homePageContent {
     box-sizing: border-box;
     padding: 20px;
+    background-color: white;
 }
 
 .homePageContent > div {
