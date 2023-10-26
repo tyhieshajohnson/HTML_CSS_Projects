@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Body Styling */
+body {
+    font-family: sans-serif;
+}
+
 /* Social Media */
 #socialMedia {
     display: flex;
