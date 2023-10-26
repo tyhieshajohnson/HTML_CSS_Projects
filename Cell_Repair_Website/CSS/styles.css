@@ -53,8 +53,21 @@ li::after {
 
 /* Banner Image Styling */
 .bannerImage {
+    object-fit: contain;
     width: 100%;
-    height: 10px;
+    height: 100%;
+}
+
+.bannerImage img {
+    max-width: 100%;
+}
+
+.bannerImage img > div {
+    position absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
 }
 /* Media Screen */
 
