@@ -147,13 +147,17 @@ h4 {
 
 /* Home Page Image Styling 2 */
 .img-4 {
-    width: 100%;
+    display: flex;
+    width: 34.6%;
     height: 100%;
-    background-position: center;
+    position: center;
     background-size: cover;
     display:block;
 }
 
-.homePgDiv div {
+/* .homePgDiv div {
     width: 35%;
-}
+    display: flex;
+} */
+
+/* Media Screen - HOME PAGE IMAGE STYLING 2 */
