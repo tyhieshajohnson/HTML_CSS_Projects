@@ -5,6 +5,7 @@
     width: 100%;
 }
 
+/* Navigation Bar */
 .navigationAnchor {
     background-color: white;
     display:flex;
@@ -17,6 +18,13 @@
     display: flex;
     list-style-type: none;
     padding: 10px 0;
+    border: solid 1px;
+    border-bottom: none;
+    border-top: none;
+}
+
+#menuItem1 {
+    border-left: none;
 }
 
 .navigationLinks a {
@@ -24,7 +32,19 @@
     padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 600;
     font-size: 14px;
     margin: 0 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+li::before {
+    content: "";
+}
+
+li::after {
+    box-shadow: 10px 10px darkgray;
 }
