@@ -1,4 +1,8 @@
 /* Universal Indicator */
+/* Body Styling */
+body {
+    background-image: url('/Cell_Repair_Website/Images/mobiCareBackground.webp');
+}
 /* Navigation Bar */
 /* Logo Styling */
 .mobiCareLogo {
@@ -75,6 +79,10 @@ li::after {
 .homePageContent {
     box-sizing: border-box;
     padding: 20px;
+}
+
+.homePageContent > div {
+    display: block;
 }
 
 .contentAlign {
