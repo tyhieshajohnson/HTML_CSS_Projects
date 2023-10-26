@@ -74,6 +74,7 @@ li::after {
 /* Home Page Content Styling */
 .homePageContent {
     box-sizing: border-box;
+    padding: 20px;
 }
 
 .contentAlign {
