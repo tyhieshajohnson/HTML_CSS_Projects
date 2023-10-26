@@ -63,7 +63,7 @@ li::after {
 }
 
 .bannerImage img > div {
-    position absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -86,4 +86,17 @@ h2 {
     display: block;
     font-size: 26px;
     font-weight: bold;
+    font-family: arial black, arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial black, arial, sans-serif;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
 }
