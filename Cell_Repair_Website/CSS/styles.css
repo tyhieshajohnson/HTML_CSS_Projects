@@ -58,3 +58,19 @@ li::after {
 }
 /* Media Screen */
 
+/* Home Page Content Styling */
+.homePageContent {
+    box-sizing: border-box;
+}
+
+.contentAlign {
+    text-align: center;
+    font-size: 18px;
+}
+
+h2 {
+    color: red;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+}
