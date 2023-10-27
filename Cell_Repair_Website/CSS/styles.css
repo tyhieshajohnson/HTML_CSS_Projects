@@ -113,6 +113,11 @@ h1 {
 p {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.homePage {
+    justify-content: center;
+    justify-content: space-between;
+}
 /* Media Screen - HOME PAGE CONTENT1 */
 
 /* Home Page Images Styling */
