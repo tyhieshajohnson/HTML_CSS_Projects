@@ -1,0 +1,191 @@
+/* Universal Indicator */
+/* Body Styling */
+body {
+    background-image: url('/Cell_Repair_Website/Images/mobiCareBackground.webp');
+}
+/* Media Screen - BODY */
+/* Navigation Bar */
+/* Logo Styling */
+.mobiCareLogo {
+    width: 100%;
+    background-color: white;
+}
+/* Media Screen - LOGO*/
+
+/* Navigation Bar */
+.navigationAnchor {
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.navigationLinks {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0;
+    border: solid 1px;
+    border-bottom: none;
+    border-top: none;
+}
+
+#menuItem1 {
+    border-left: none;
+}
+
+.navigationLinks a {
+    color: darkblue;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+li::before {
+    content: "";
+}
+
+li::after {
+    box-shadow: 10px 10px darkgray;
+}
+/* Media Screen - NAVIGATION BAR*/
+
+/* Banner Image Styling */
+.bannerImage {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.bannerImage img {
+    max-width: 100%;
+}
+
+.bannerImage img > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+/* Media Screen - BANNER*/
+
+/* Home Page Content Styling */
+.homePageContent {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+}
+
+.homePageContent > div {
+    display: block;
+}
+
+.contentAlign {
+    text-align: center;
+    font-size: 18px;
+}
+
+h2 {
+    color: red;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: arial black, arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial black, arial, sans-serif;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Media Screen - HOME PAGE CONTENT1 */
+
+/* Home Page Images Styling */
+.homePageImages {
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.homePageImages img {
+    width: 100%;
+    height: 330px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+/* Media Screen - HOME PAGE STYLING */
+
+/* Home Page Content Part 2 Styling */
+.homePageContent2 {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h4 {
+    color: red;
+    font-weight: bold;
+    font-family: arial black, arial, sans-serif;
+}
+/* Media Screen - HOME PAGE CONTENT PAGE 2 */
+
+/* Home Page Image Styling 2 */
+.img-4 {
+    display: flex;
+    width: 34.6%;
+    height: 100%;
+    position: center;
+    background-size: cover;
+    display:block;
+}
+
+.contentBorder {
+    box-sizing: border-box;
+    border: solid 3px black;
+    box-shadow: 0px 0px 3px 2px darkgray;
+    width: 600px;
+    height: 400px;
+}
+
+.contentBorder div {
+    display: block;
+    background-color: white;
+}
+
+.h2-Offer {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.h2-Service {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* .homePgDiv div {
+    width: 35%;
+    display: flex;
+} */
+/* Media Screen - HOME PAGE IMAGE STYLING 2 */
+
+/* Footer Styling */
+
+/* About Page Styling */
